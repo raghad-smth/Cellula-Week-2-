@@ -19,8 +19,7 @@ The goal of this project is mainly **educational**:
 ## 📍 System Architecture
 
 The system is composed of **three main parts**:
-
-### 1️⃣ Input Handling (`image_caption.py`)
+### 1️⃣ Input Handling ([`image_caption.py`](./image_caption.py))
 
 * Users can **upload an image** or **enter a caption manually**.
 * If an image is uploaded, we use **BLIP (Bootstrapping Language-Image Pre-training)**, a multimodal model that converts images into text.
@@ -29,7 +28,7 @@ The system is composed of **three main parts**:
   * Chosen because it can be downloaded and run locally (since Hugging Face does not offer a free API for BLIP).
 * If a caption is entered manually, we skip this step and use the provided text directly.
 
-### 2️⃣ Classification (`classifier.py`)
+### 2️⃣ Classification ([`classifier.py`](./classifier.py))
 
 * The caption (generated or manual) is **combined** with the additional user text.
 * This combined input is sent to a **sentiment analysis model**:
@@ -39,7 +38,7 @@ The system is composed of **three main parts**:
 * The output is a **label** (`positive`, `negative`, `neutral`) and a **confidence score**.
 * The model is accessed via the **Hugging Face Inference API**, so no heavy local downloads are needed.
 
-### 3️⃣ Data Storage (`records.csv`)
+### 3️⃣ Data Storage ([`records.csv`](./records.csv))
 
 * Every classification result is stored in a CSV file for tracking.
 * Each row contains:
