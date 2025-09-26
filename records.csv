@@ -1,0 +1,4 @@
+image_caption,user_text,combined_input,label,score
+a field of flowers with mountains in the background,I am in love and life is good ,a field of flowers with mountains in the background. I am in love and life is good,positive,0.9854153990745544
+a car crashed into a pole on the side of the road,I feel bad and i think life is hard,a car crashed into a pole on the side of the road. I feel bad and i think life is hard,negative,0.932631492614746
+sunflowers in a field,I am so happy and life is good ,sunflowers in a field. I am so happy and life is good,positive,0.988825500011444

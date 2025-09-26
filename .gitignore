@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+myenv/
+venv/
+.env
+
+# Streamlit cache
+.streamlit/
+
+# Temporary runtime folders
+resized_temp/
+temp/
