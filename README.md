@@ -1,4 +1,10 @@
-# Text & Image Classifier
+# 📌 Task (1) : Quantization Reasearch 
+
+([`Qunatization.py`](./Qunatization.pdf))
+
+--- 
+
+# 📌 Task (2) : Text & Image Classifier
 
 ## 📍 Introduction
 
