@@ -1,6 +1,6 @@
 # 📌 Task (1) : Quantization Reasearch 
 
-([`Quantization.py`](./Quantization.pdf))
+([`Quantization.pdf`](./Quantization.pdf))
 
 --- 
 
