@@ -66,6 +66,14 @@ The entire app is wrapped in a **Streamlit** UI for easy interaction:
 * See past records stored in CSV.
 
 Streamlit also provides a **shareable local network link** so others can test it while your computer is running.
+### Layout: 
+<img width="953" height="853" alt="image" src="https://github.com/user-attachments/assets/eecfd423-3f0b-4d9c-8c2d-20bdc303dbf0" />
+
+### Created Caption & user text input : 
+<img width="1061" height="774" alt="image" src="https://github.com/user-attachments/assets/fc1b2146-d6a0-4cd5-9f35-dab77f237f3b" />
+
+### Loading the csv file : 
+<img width="1077" height="398" alt="image" src="https://github.com/user-attachments/assets/85c1b81c-5e55-472f-8b09-71b15fb79331" />
 
 ---
 
